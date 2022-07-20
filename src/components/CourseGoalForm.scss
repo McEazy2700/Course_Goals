@@ -7,58 +7,35 @@
     width: 80%;
     margin-block: 2rem;
 
-    .courseGoal__form-control {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
+}
 
-        .courseGoal__form-control_input {
-            display: flex;
-            flex-direction: column;
-            gap: 0.5rem;
+.courseGoal__form-control {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 
-            label {
-                font-weight: bold;
-                font-size: 1.1rem;
-            }
+}
 
-            input {
-                padding: 0.5rem 1rem;
-                border-radius: 7px;
-                border: 1px solid black;
-                outline: none;
-                font-size: 1.05rem;
-                transition: all 0.2s ease;
-            }
+.courseGoal__form-control_cta {
+    margin-block: 1rem 0.5rem;
+    button {
+        background-color: rgb(245, 54, 187);
+        color: #fff;
+        border: none;
+        outline: none;
+        padding: 0.6rem 1rem;
+        border-radius: 7px;
+        border: 1px solid transparent;
+        cursor: pointer;
+        font-weight: bold;
+        transition: all 0.3s ease;
+    }
 
-            input:active, 
-            input:focus {
-                outline: 2px solid rgb(245, 54, 187);
-                border-color: transparent;
-            }
-        }
-
-        .courseGoal__form-control_cta {
-            margin-block: 1rem 0.5rem;
-            button {
-                background-color: rgb(245, 54, 187);
-                color: #fff;
-                border: none;
-                outline: none;
-                padding: 0.6rem 1rem;
-                border-radius: 7px;
-                border: 1px solid transparent;
-                cursor: pointer;
-                font-weight: bold;
-                transition: all 0.3s ease;
-            }
-
-            button:hover,
-            button:active {
-                background-color: rgb(255, 210, 242);
-                color: rgb(56, 56, 56);
-                border-color: rgb(245, 54, 187);
-            }
-        }
+    button:hover,
+    button:active {
+        background-color: rgb(255, 210, 242);
+        color: rgb(56, 56, 56);
+        border-color: rgb(245, 54, 187);
     }
 }
+
